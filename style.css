@@ -3,19 +3,44 @@ body{
     flex-direction: column;
 }
 
-.header {
-    height: 100px;
+/* -------- MAIN CLASSES/SECTIONS ------------------------------------------- */
+
+.Header {
+    height: 50px;
     width: auto;
     background-color: #1F2937;
 }
 
-.middle {
-    height: 200px;
+.Middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer {
+    height: 50px;
+    width: auto;
+    background-color: #1F2937;
+}
+/* ----------------------- MAIN DESCENDANTS --------------------------------- */
+
+.Middle > .first {
+    padding: 30px;
+    background-color: #1F2937;
+}
+
+.Middle > .second {
+    padding: 15px;
+    background-color: white;
+}
+
+.Middle > .third {
+    padding: 30px;
     background-color: #E5E7EB;
 }
 
-.footer {
-    height: 100px;
-    width: auto;
-    background-color: #1F2937;
+.Middle > .fourth {
+    padding: 20px;
+    background-color: white;
 }
+
+/* -------------------- SUBDESCENDANTS ---------------------------------------*/
