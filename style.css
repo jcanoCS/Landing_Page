@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 100px;
+    width: auto;
+    background-color: #1F2937;
+}
+
+.middle {
+    height: 200px;
+    background-color: #E5E7EB;
+}
+
+.footer {
+    height: 100px;
+    width: auto;
+    background-color: #1F2937;
+}
