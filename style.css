@@ -11,7 +11,8 @@ body{
     justify-content: space-between;
     align-items: center;
     /* slightly lighter color than one given */
-    background-color: #252e39;
+    /* background-color: #252e39; */
+    background-color: #1F2937;
 }
 
 
@@ -19,22 +20,22 @@ body{
     width: 55px;
     height: 50px;
     margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 60px;
+    padding-bottom: 5px;
+    margin-left: 230px;
     margin-right: 260px;
 }
 
 .Header > ul {
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
     padding-right: 120px;
 }
 
 .Header li {
     font-family: Verdana, Arial;
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7EB;
 }
 
@@ -51,9 +52,65 @@ body{
 
 
 .Middle > .first {
-    padding: 30px;
-    /* background-color: #1F2937; */
-    background-color: white;
+    display: flex;
+    padding: 0px 30px 30px 30px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.Middle > .first > .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 250px;
+    width: 500px;
+    padding-right: 50px;
+}
+
+.Middle > .first > .left > .title {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Verdana, Arial;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.Middle > .first > .left > .content {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Middle > .first > .right {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.Middle > .first img {
+    width: auto;
+    height: 250px;
+}
+
+.Middle button {
+    background-color: #3882F6;
+    color: azure;
+    font-family: Verdana, Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
+    border: none;
 }
 
 .Middle > .second {
