@@ -53,7 +53,7 @@ body{
 
 .Middle > .first {
     display: flex;
-    padding: 0px 30px 30px 30px;
+    padding: 0px 30px 20px 30px;
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
@@ -113,21 +113,96 @@ body{
     border: none;
 }
 
+
+/* ************************************************************************** */
+
 .Middle > .second {
-    padding: 15px;
-    /* background-color: white; */
-    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom:  70px;
+    background-color: white;
 }
 
-.Middle > .third {
-    padding: 30px;
-    background-color: #E5E7EB;
+.Middle > .second > .title {
+    font-family: Verdana, Arial;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
 }
+
+.Middle > .second > .tiles {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.tiles div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tiles img {
+    max-width: 100%;
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tiles p {
+    max-width: 160px;
+    text-align: center;
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    color: #374353;
+
+}
+
+
+/* ************************************************************************** */
+
+.Middle > .third {
+    padding: 60px 240px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* quote */
+.Middle > .third > p {
+    font-family: Verdana, Arial;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #525a63;
+    width: 800px;
+    max-width: 100%;
+    text-align: start;
+}
+
+/* citation */
+.Middle > .third > .citation {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #1F2937;
+    width: 830px;
+    max-width: 100%;
+    text-align: end;
+}
+
+/* ************************************************************************** */
+
 
 .Middle > .fourth {
     padding: 20px;
     background-color: white;
 }
+/* ************************************************************************** */
 
 
 
