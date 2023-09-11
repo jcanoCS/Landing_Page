@@ -1,3 +1,5 @@
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -34,7 +36,7 @@ body{
 }
 
 .Header li {
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     font-size: 20px;
     color: #E5E7EB;
 }
@@ -76,7 +78,7 @@ body{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     margin-top: 20px;
     margin-bottom: 0px;
 }
@@ -84,7 +86,7 @@ body{
 .Middle > .first > .left > .content {
     margin-top: 5px;
     padding-bottom: 5px;
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -102,7 +104,7 @@ body{
 .Middle button {
     background-color: #3882F6;
     color: azure;
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     font-size: 14px;
     font-weight: bold;
     padding-top: 7px;
@@ -126,7 +128,7 @@ body{
 }
 
 .Middle > .second > .title {
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
@@ -155,7 +157,7 @@ body{
 .tiles p {
     max-width: 160px;
     text-align: center;
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     font-size: 18px;
     color: #374353;
 
@@ -174,7 +176,7 @@ body{
 
 /* quote */
 .Middle > .third > p {
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -223,7 +225,7 @@ body{
 
 .Middle > .fourth > .banner > .left > p {
     margin: 0px;
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
     color: #E5E7EB;
     font-size: 14px;
 }
@@ -265,5 +267,5 @@ body{
 .Footer > .copyright {
     color:#E5E7EB;
     font-size: 12px;
-    font-family: Verdana, Arial;
+    font-family: 'Roboto', Verdana, Arial;
 }
