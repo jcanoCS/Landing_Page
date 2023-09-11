@@ -253,7 +253,7 @@ body{
 /* ---------------------------- FOOTER ---------------------------------------*/
 
 .Footer {
-    padding: 12px;
+    padding: 11px;
     display: flex;
     height: 50px;
     width: auto;
@@ -264,6 +264,6 @@ body{
 
 .Footer > .copyright {
     color:#E5E7EB;
-    font-size: 1px;
+    font-size: 12px;
     font-family: Verdana, Arial;
 }
